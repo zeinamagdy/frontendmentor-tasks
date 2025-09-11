@@ -1,10 +1,17 @@
+
+@font-face {
+ font-family: "Figtree";
+ src: local("Figtree"),
+  url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+}
+
 :root {
   --yellow: hsl(47, 88%, 63%);
   --white: hsl(0, 0%, 100%);
   --gery500: hsl(0, 0%, 42%);
   --gray950: hsl(0, 0%, 7%);
-  
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-family: Figtree-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,12 +26,4 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
