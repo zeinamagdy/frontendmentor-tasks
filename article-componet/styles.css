@@ -131,3 +131,25 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        width: 25em;
+    }
+
+    .right-content {
+        width: 20em;
+        padding: 1em 3em;
+
+    }
+
+    .card-img {
+        width: 25em;
+        height: 15em;
+        margin-right: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+}
