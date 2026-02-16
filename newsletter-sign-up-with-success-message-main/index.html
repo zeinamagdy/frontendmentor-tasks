@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sign-up form start -->
+    <div class="form-container" id="form-container">
+      <form class="signup-form" id="signup-form">
+
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <div class="email-container">
+        <label for="email-input">E-mail address</label>
+        <span class="error-message" id="error-message">valid email required</span>
+        </div>
+        <input type="text" class="email-input" id="email-input" placeholder="email@company.com" required>
+        <button type="submit" id="subscribe-button">
+          Subscribe to monthly newsletter
+        </button>
+
+      </form>
+      <div class="illustration-desktop">
+        <img class="sing-up-img" src="./assets/images/illustration-sign-up-desktop.svg" alt="Illustration Desktop">
+      </div>
+    </div>
+    <!-- Sign-up form end -->
+
+
+  </div>
+  <!-- Success message start -->
+  <section class="success-message" id="success-message">
+    <img class="success-icon" src="./assets/images/icon-success.svg" alt="Success Icon">
+    <h1>Thanks for subscribing!</h1>
+    <div class="success-message-text">
+      A confirmation email has been sent to <b id="email-display">ash@loremcompany.com.</b>
+      Please open it and click the button inside to confirm your subscription.
+    </div>
+    <button class="dismiss-button" id="dismiss-button">Dismiss message</button>
+  </section>
+
+
+  <!-- Success message end -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Zeinab Mohamed</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
