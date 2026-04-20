@@ -33,6 +33,6 @@ Flexbox / CSS Grid
 Mobile-first workflow
 
 🔗 Useful Links
-My Frontend Mentor Profile
+My Frontend Mentor Profile ( https://www.frontendmentor.io/profile/zeinamagdy)
 
 Frontend Mentor Learning Path
